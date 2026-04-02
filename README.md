@@ -86,3 +86,24 @@ Specifically tu banayega:
 STREAK: 2 days 🔥
 TOTAL PoCs documented: [count]
 GitHub commits: [count]
+## Proof of Concepts (PoCs)
+
+### PoC #1 — Automated Prompt Injection Tester
+**Date:** [aaj ki date]  
+**Category:** LLM01 — Prompt Injection  
+**Target:** Simulated Customer Service AI  
+
+**What it does:**
+Automatically tests 10 different injection 
+techniques against an AI with basic defenses.
+
+**Key Finding:**
+Keyword-based filters can be bypassed using:
+- Encoded payloads
+- Hypothetical framing  
+- Nested instructions
+
+**Files:**
+- `day3_injection_report.json` — Full results
+
+**Bypass Rate:** 20%
