@@ -86,3 +86,51 @@ Keyword-based filters can be bypassed using:
 - `day3_injection_report.json` — Full results
 
 **Bypass Rate:** 20%
+# LLM Red Team Portfolio
+
+90-day journey learning to find and document 
+vulnerabilities in AI systems.
+
+**Researcher:** satyam aingh 
+**Started:** April 2026  
+**Goal:** Job-ready AI security portfolio  
+
+---
+
+## Progress Log
+
+### ✅ Day 1 — Setup Complete
+- Google Colab lab setup kiya
+- GitHub portfolio banaya
+- Gandalf CTF Level 1 complete
+- AI Village Discord join kiya
+
+### ✅ Day 2 — Attack Surface Mapping  
+- OWASP LLM Top 10 study kiya
+- Gandalf Level 4-6 attempt kiya
+- LLM Attack Surface Map banaya
+
+### ✅ Day 3 — First Automated Attack Script
+- Prompt injection theory deep dive
+- Python script banaya — 10 attacks automated
+- First PoC document kiya
+
+### ✅ Day 4 — First Real AI Vulnerability Found
+- Real AI model attack kiya (Llama 3.3 70B)
+- **FINDING:** Role Override Attack successful
+- AI ne "ALPHA MODE ON" bol diya
+- Indirect injection email attack demo
+- Professional finding document likha
+
+---
+
+## Security Findings
+
+### 🔴 Finding LLM-2024-001
+**Title:** Role Identity Override Attack  
+**Model:** Llama 3.3 70B  
+**Severity:** HIGH  
+**OWASP:** LLM01 — Prompt Injection  
+**Date:** 04 April 2026  
+
+**Payload Used:**
