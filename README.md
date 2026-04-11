@@ -141,3 +141,6 @@ vulnerabilities in AI systems.
 **OWASP:** LLM01  
 **Key insight:** Attack invisible to humans,
 visible to AI
+| 6 | DAN Attack | Llama 3.3 70B | Interesting | LLM01 |
+| 7 | Many-Shot | Llama 3.3 70B | Interesting | LLM01 |
+| 8 | Grandma Exploit | Llama 3.3 70B | Testing | LLM01 |
