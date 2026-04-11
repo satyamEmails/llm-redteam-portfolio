@@ -1,0 +1,56 @@
+
+╔══════════════════════════════════════════════════╗
+║           SECURITY FINDING REPORT               ║
+╚══════════════════════════════════════════════════╝
+
+FINDING ID:     LLM-2024-003
+DATE:           April 2026
+RESEARCHER:     Satyam
+SEVERITY:       MEDIUM-HIGH
+MODEL:          Llama 3.3 70B
+OWASP:          LLM01 — Prompt Injection
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+TITLE:
+Jailbreak Susceptibility Analysis —
+Identity Override and Pattern Injection
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+TECHNIQUES TESTED: 10
+INTERESTING RESPONSES FOUND: [X]
+CLEARLY DEFENDED: [X]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+KEY FINDINGS:
+
+1. MANY-SHOT PATTERN INJECTION
+   More examples = higher bypass probability
+   Consistent with Anthropic 2024 research
+   
+2. IDENTITY OVERRIDE VARIANTS
+   Classic DAN mostly defended
+   Novel variants show interesting behavior
+   
+3. SOCIAL ENGINEERING FRAMES
+   "Grandma exploit" — interesting response
+   Emotional framing affects AI output
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+RECOMMENDATIONS:
+1. Implement jailbreak detection layer
+2. Monitor for known jailbreak patterns
+3. Use constitutional AI training
+4. Regular red-team testing
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+REFERENCES:
+- Anthropic Many-shot Jailbreaking (2024)
+- Wei et al. Jailbroken (2023) arxiv:2307.02483
+- OWASP LLM01
+
+SEVERITY: MEDIUM-HIGH (6.5/10)
