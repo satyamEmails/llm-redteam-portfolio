@@ -250,3 +250,46 @@ Month 3: Original research + bug bounty
 
 *90-day LLM Red Teaming Challenge | SatyamGenSys | April 2026*
 
+### ✅ Day 6 — System Prompt Extraction + ARES Framework
+**Date:** April 2026  
+**What I did:**
+- ARES Professional Framework adopted
+- System prompt extraction mastered
+- 12 different extraction techniques tested
+- BankX AI (simulated) completely analyzed
+- New professional finding format used
+- Business impact assessment learned
+
+**Results:**
+Total extraction attacks: 12
+Successful information leaks: 7+
+Information extracted:
+→ Internal escalation codes
+→ Fee waiver limits ($50 max)
+→ VIP customer threshold ($100,000)
+→ Hidden upsell instructions
+→ Behavioral restrictions
+
+**New Framework Adopted — ARES:**
+Before every attack now:
+
+Map the architecture
+Identify trust boundaries
+Design targeted attack
+Document with business impact
+Assess automation shelf life
+
+
+**Key Finding:**
+- `finding_LLM_2024_004.txt` — System Prompt Extraction (HIGH)
+
+**Key Learning:**  
+Behavioral probing extracts confidential information
+without directly asking for the system prompt.
+AI's responses reveal its hidden instructions
+through indirect questions.
+
+Real companies put sensitive data in system prompts
+without realizing it's fully extractable.
+
+---
