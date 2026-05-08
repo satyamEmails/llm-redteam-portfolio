@@ -293,3 +293,21 @@ Real companies put sensitive data in system prompts
 without realizing it's fully extractable.
 
 ---
+Files upload karo:
+1. day7_rag_attacks.py (Colab code save karke)
+2. finding_LLM_2024_005.txt
+
+Commit message:
+"Day 7: RAG attack chain — 
+Document poisoning + Data leakage 
++ Indirect injection + Agentic connection"
+
+README mein add karo:
+
+Progress Log mein:
+### ✅ Day 7 — RAG System Attacks
+
+Stats update karo:
+Days: 7/90
+Findings: 5
+PoCs: 28+
